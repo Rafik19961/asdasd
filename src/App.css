@@ -1,0 +1,252 @@
+.aa a {
+  text-decoration: none !important;
+  margin-left: 150px;
+  color: rgb(21, 22, 21);
+  display: flex;
+  justify-content: center;
+}
+.nn {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.d1 {
+  display: flex;
+  justify-content: center;
+  height: 750px;
+  width: 100%;
+  background-image: url(https://celes.club/uploads/posts/2022-05/thumbs/1653661900_27-celes-club-p-neonovaya-kirpichnaya-stena-fon-krasivie-27.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 855px;
+  height: 250px;
+  font-size: 1000px;
+  line-height: 85px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Libre Baskerville";
+  text-align: center;
+}
+
+.bt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 340px;
+  width: 180px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #dd2909;
+  font-size: 16px;
+  line-height: 80px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Poppins";
+  text-align: center;
+}
+
+.ii {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.ii img {
+  height: 100px;
+  width: 180px;
+}
+.about {
+  display: flex;
+  justify-content: center;
+  height: 700px;
+}
+
+.ab1 {
+  width: 333px;
+  height: 500px;
+  background-image: url(https://images.unsplash.com/photo-1570126618953-d437176e8c79?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: 50px;
+  margin-right: 300px;
+}
+
+.ab2 {
+  width: 600px;
+  height: 320px;
+  position: absolute;
+  margin-left: 500px;
+  margin-top: 150px;
+  z-index: 2px;
+  background-color: rgb(255, 255, 255);
+}
+.ab2 h1 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.ab2 p {
+  text-align: center;
+}
+.b {
+  display: flex;
+}
+
+.b1 {
+  background-color: red;
+  width: 25%;
+  height: 2px;
+}
+.b2 {
+  background-color: rgb(0, 255, 34);
+  height: 2px;
+  width: 25%;
+}
+.b3 {
+  background-color: rgb(71, 40, 183);
+  height: 2px;
+  width: 25%;
+}
+.b4 {
+  background-color: rgb(251, 238, 0);
+  height: 2px;
+  width: 25%;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+h2 {
+  margin: 0;
+  color: #5959ff;
+  font-size: 2.5em;
+  font-weight: 600;
+  margin-top: 5rem;
+}
+
+form label {
+  font-size: 1.2rem;
+}
+
+input,
+textarea,
+button {
+  width: 100%;
+  padding: 0.5em;
+  border: none;
+  font-size: 1.2rem;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  margin: 0 0 1em;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+textarea {
+  height: 6em;
+}
+input[type="submit"],
+button {
+  background: #4570f3;
+  color: #fff;
+  cursor: pointer;
+}
+input[type="submit"]:hover,
+button:hover {
+  background: #6e65f4;
+}
+.register-photo {
+  background:#f1f7fc;
+  padding:80px 0;
+}
+
+
+
+.register-photo .form-container {
+  display:table;
+  max-width:900px;
+  width:90%;
+  margin:0 auto;
+  box-shadow:1px 1px 5px rgba(0,0,0,0.1);
+}
+
+.register-photo form {
+  display:table-cell;
+  width:400px;
+  background-color:#ffffff;
+  padding:40px 60px;
+  color:#505e6c;
+}
+
+@media (max-width:991px) {
+  .register-photo form {
+    padding:40px;
+  }
+}
+
+.register-photo form h2 {
+  font-size:24px;
+  line-height:1.5;
+  margin-bottom:30px;
+}
+
+.register-photo form .form-control {
+  background:#f7f9fc;
+  border:none;
+  border-bottom:1px solid #dfe7f1;
+  border-radius:0;
+  box-shadow:none;
+  outline:none;
+  color:inherit;
+  text-indent:6px;
+  height:40px;
+}
+
+.register-photo form .form-check {
+  font-size:13px;
+  line-height:20px;
+}
+
+.register-photo form .btn-primary {
+  background:#f4476b;
+  border:none;
+  border-radius:4px;
+  padding:11px;
+  box-shadow:none;
+  margin-top:35px;
+  text-shadow:none;
+  outline:none !important;
+}
+
+.register-photo form .btn-primary:hover, .register-photo form .btn-primary:active {
+  background:#eb3b60;
+}
+
+.register-photo form .btn-primary:active {
+  transform:translateY(1px);
+}
+
+.register-photo form .already {
+  display:block;
+  text-align:center;
+  font-size:12px;
+  color:#6f7a85;
+  opacity:0.9;
+  text-decoration:none;
+}
